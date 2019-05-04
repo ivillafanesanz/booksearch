@@ -25,6 +25,7 @@ class Search extends Component {
     handleSave = (event, index) => {
       event.preventDefault();
       let book = this.state.books[index];
+      console.log(book,"hiiiiii");
       API.saveBook({
         title: book.volumeInfo.title,
         authors: book.volumeInfo.authors ? book.volumeInfo.authors.join(", ") : "",
