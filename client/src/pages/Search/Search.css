@@ -1,6 +1,6 @@
 .card-img {
-  width: 128px;
-  height: 192px;
+  width: 130px;
+  height: 200px;
 }
 
 .card-img.search {
@@ -12,7 +12,7 @@
 }
 
 .btn {
-  border: 1px solid gray;
+  border: 1px solid purple;
 }
 
 .buttons {
